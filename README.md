@@ -23,13 +23,14 @@ For this method, I got a balanced accuracy score of 0.66 and a prediction for hi
 ![](https://github.com/Judyhm2/Supervised_ML/blob/main/Over_Under.png)
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.
-The Ensemble classifier with balancedrandon method was used in credit_risk_ensemble
+The Ensemble classifier with balancedrandon method was used in [credit_risk_ensemble](https://github.com/Judyhm2/Supervised_ML/blob/main/credit_risk_ensemble.ipynb)
 
 - The BalancedRandomForestClassifier had a random_state of 1 for the X and y values. The variable clf stored the X and y value.
 - The Accuracy score was stored in the variable acc_score for a value of 0.78.
 - I sorted the values of the clf_model and the X.columns.
-The Easy Ensemble AdaBoost Classifier generated a variable ecc.fit for the split testing; train and test.
-The Imbalanced classification report for y_test and y_pred produced high_risk, low_risk and avg/total values respectively. 
+- The Easy Ensemble AdaBoost Classifier generated a variable ecc.fit for the split testing; train and test.
+- The Imbalanced classification report for y_test and y_pred produced high_risk, low_risk and avg/total values respectively. 
+-![](https://github.com/Judyhm2/Supervised_ML/blob/main/ensemble.png)
 ## Summary
 For the Combination(Over and Under) Sampling Precision = True Positive/(True Positive + False Positive), Sensitivity = True Positive/(True Positive + False Negative). The credit risk was low, therefore, the imbalance classification testing credit risk value would be good.
 The sensitivity for credit_risk_resampling is lower than credit_risk_ensemble, therefore, it is important that we conduct good research on applicants.
