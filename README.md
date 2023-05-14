@@ -18,8 +18,9 @@ Please note that I did ran into some programming errors, however I continued to 
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk.
 - I have used the undersampling method in the file [credit_risk resampling](https://github.com/Judyhm2/Supervised_ML/blob/main/credit_risk_resampling.ipynb)
 For this method, I got a balanced accuracy score of 0.66 and a prediction for high risk at 0.01 and low rish at 1.00. 
-- The combination of Over and under sample methos was used to find confusion matrix, the confusion matrix produced an array for the y_prediction of 71, 30 and 7232, 9872. 
 ![](https://github.com/Judyhm2/Supervised_ML/blob/main/Undersample.png)
+- The combination of Over and under sample methos was used to find confusion matrix, the confusion matrix produced an array for the y_prediction of 71, 30 and 7232, 9872. 
+![](https://github.com/Judyhm2/Supervised_ML/blob/main/Over_Under.png)
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.
 The Ensemble classifier with balancedrandon method was used in credit_risk_ensemble
